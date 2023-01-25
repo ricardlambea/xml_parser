@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This is a sample of GTR Public Test XML that should be used to review the XML structure and examples of data for specific fields required for public GTR data, this data does not represent a test and should not be interpreted as such. -->
+<GTRPublicTest id="1" LastUpdate="2012-09-04" LastTouched="2012-09-04" source="GTR">
+    <GTRLabData>
+    <GTRLab id="1" source="GTR">
+        <Organization>
+            <Name>My lab</Name>
+            <NameAcronym>ML</NameAcronym>
+            <Institution>My Institution</Institution>
+            <InstitutionAcronym>MI</InstitutionAcronym>
+            <Department>My Department</Department>
+            <MailingAddress Public="true">
+                <Line1>1234 street</Line1>
+                <Line2>building 1</Line2>
+                <Line3>attn: recieving</Line3>
+                <City>My city</City>
+                <State id="118">Maryland</State>
+                <PostCode>00000</PostCode>
+                <Country id="840">USA</Country>
+            </MailingAddress>
+            <LabContact Public="true">
+                <Email>lab@lab.com</Email>
+                <Phone>555-555-5555</Phone>
+                <Fax>555-555-0000</Fax>
+                <Comment>Call between 9am and noon</Comment>
+                <URL>http://www.mylab.com/contact.html</URL>
+            </LabContact>
+            <URL>http://www.mylab.com/</URL>
+            <LabServices OrderCode="abc" >Clinical Testing/Confirmation of Mutations Identified Previously</LabServices>
+            <LabServices>Confirmation of research findings</LabServices>
+            <LabServices OrderCode="123">Custom Prenatal Testing</LabServices>
+            <LabServices OrderCode="456" Comment="more information about this service">Custom Sequence Analysis</LabServices>
+            <LabServices>Custom mutation-specific/Carrier testing</LabServices>
+            <LabServices>DNA Banking</LabServices>
+            <LabServices>Mutation Confirmation</LabServices>
+            <LabAffiliations>
+                <LabAffiliation>My Lab Affiliation</LabAffiliation>
+                <URL>http://www.labaffil.com/</URL>
+            </LabAffiliations>
+            <StandardPrograms>CETT Program (Collaboration Education and Test Translation)</StandardPrograms>
+            <StandardPrograms>Locus-specific Databases</StandardPrograms>
+            <DataExchangePrograms>ClinVar</DataExchangePrograms>
+            <DataExchangePrograms>ISCA Consortium (International Standards for Cytogenomic Arrays)</DataExchangePrograms>
+        </Organization>
+        <Personnel id="1" PrimaryContact="false" IsDirector="false" DisplayWeb="true">
+            <Person>
+                <DisplayName>Jennifer M. Lee, PhD</DisplayName>
+                <Name>
+                    <First>Jennifer</First>
+                    <Last>Lee</Last>
+                    <Middle>M</Middle>
+                </Name>
+                <Degree Display="true">
+                    <Name>PhD</Name>
+                </Degree>
+                <Certification>
+                    <SubSpecialty>SubSpecialty</SubSpecialty>
+                    <Specialty>Specialty</Specialty>
+                    <Board>Board</Board>
+                </Certification>
+                <Credential Display="true">
+                    <Name>FACMG</Name>
+                </Credential>
+            </Person>
+            <PublicContact Public="true">
+                <Email>me@lab.com</Email>
+                <Phone>555-555-5555</Phone>
+                <Fax>555-555-0000</Fax>
+            </PublicContact>
+            <Title>Lab Director</Title>
+        </Personnel>
+        <LabCertification Type="State License">
+            <ExpirationDate>2012-09-02</ExpirationDate>
+            <Number>A0000000</Number>
+            <Name>CA - California Department of Public Health CDPH</Name>
+        </LabCertification>
+        <LabCertification Type="Certification">
+            <ExpirationDate>2013-08-28</ExpirationDate>
+            <Number>00D0000000</Number>
+            <Name>CLIA</Name>
+        </LabCertification>
+    </GTRLab>
+    <GTRLabTest id="1" GTRAccession="GTR000000001" Version="1">
+        <ClinVarSet ID="1">
+            <DescrSet Type="preferred" CUI="C0039445">Osler hemorrhagic telangiectasia syndrome</DescrSet>
+            <DescrSet Type="lab preferred">Hereditary Hemorrhagic Telangiectasia</DescrSet>
+            <ClinVarAssertion DateCreated="2011-12-11" DateLastUpdated="2011-12-11" SubmissionDate="2011-02-22" ID="47456">
+               <TraitSet ID="7437">
+                   <Trait ID="16695" Type="Disease">
+                       <Name Type="Preferred">Osler hemorrhagic telangiectasia syndrome</Name>
+                       <Name Type="Alternate">Hereditary hemorrhagic telangiectasia</Name>
+                       <Name Type="Alternate">TELANGIECTASIA, HEREDITARY HEMORRHAGIC, OF RENDU, OSLER, AND WEBER</Name>
+                       <Name Type="Alternate">Telangiectasia, Hereditary Hemorrhagic</Name>
+                       <Name Type="lab preferred">Hereditary Hemorrhagic Telangiectasia</Name>
+                       <Symbol Type="Preferred">HHT</Symbol>
+                       <Symbol Type="lab preferred">HHT</Symbol>
+                       <XRef DB="OMIM" Type="MIM" ID="187300" />
+                       <XRef DB="GeneReviews" ID="NBK1351" />
+                       <XRef DB="My lab" ID="GTR000000001" />
+                       <XRef DB="Orphanet" ID="774" />
+                       <XRef DB="HHT Solutions - Molecular Diagnostic Laboratory,HHT Solutions - Molecular Diagnostic Laboratory" ID="GTR000500010" />
+                       <XRef DB="Bioconcepts" Type="CUI" ID="C0039445" />
+                   </Trait>
+               </TraitSet>
+               <MeasureSet ID="22498">
+                   <Measure ID="5231" Type="Gene">
+                       <Name Type="Preferred">endoglin</Name>
+                       <Symbol Type="Preferred">ENG</Symbol>
+                       <Location Type="Cytogenetic" Chr="9">9q34.1</Location>
+                       <XRef DB="Gene" ID="2025552" />
+                   </Measure>
+               </MeasureSet>
+                <ObservedIn Origin="not provided">
+                    <XRef DB="My lab" ID="GTR000000001" />
+                </ObservedIn>
+            </ClinVarAssertion>
+            <ClinVarAssertion DateCreated="2012-05-11" DateLastUpdated="2012-05-11" ID="50802">
+                <TraitSet ID="7437">
+                    <Trait ID="16695" Type="Disease">
+                        <Name Type="Preferred">Osler hemorrhagic telangiectasia syndrome</Name>
+                        <Name Type="Alternate">Hereditary hemorrhagic telangiectasia</Name>
+                        <Name Type="Alternate">TELANGIECTASIA, HEREDITARY HEMORRHAGIC, OF RENDU, OSLER, AND WEBER</Name>
+                        <Name Type="Alternate">Telangiectasia, Hereditary Hemorrhagic</Name>
+                        <Name Type="lab preferred">Hereditary Hemorrhagic Telangiectasia</Name>
+                        <Symbol Type="Preferred">HHT</Symbol>
+                        <Symbol Type="lab preferred">HHT</Symbol>
+                        <XRef DB="OMIM" Type="MIM" ID="187300" />
+                        <XRef DB="GeneReviews" ID="NBK1351" />
+                        <XRef DB="My lab" ID="GTR000000001" />
+                        <XRef DB="Orphanet" ID="774" />
+                        <XRef DB="Bioconcepts" Type="CUI" ID="C0039445" />
+                    </Trait>
+                </TraitSet>
+                <MeasureSet ID="23287">
+                    <Measure ID="105" Type="Gene">
+                        <Name Type="Preferred">activin A receptor type II-like 1</Name>
+                        <Symbol Type="Preferred">ACVRL1</Symbol>
+                        <Location Type="Cytogenetic" Chr="12">12q11-q14</Location>
+                        <XRef DB="Gene" ID="94" />
+                    </Measure>
+                </MeasureSet>
+                <ObservedIn Origin="not provided">
+                    <XRef DB="My lab" ID="GTR000000001" />
+                </ObservedIn>
+            </ClinVarAssertion>
+            <ClinVarAssertion DateCreated="2006-05-04" DateLastUpdated="2006-05-04" SubmissionDate="2006-05-04" ID="50">
+                <TraitSet ID="1">
+                    <Trait ID="1" Type="Disease">
+                        <Name Type="Preferred">My Disease 1</Name>
+                        <Name Type="lab preferred">Lab preferred name for my disease 1</Name>
+                        <Symbol Type="Preferred">My Disease 1 Symbol</Symbol>
+                        <Symbol Type="lab preferred">Lab preferred symbol for my disease 1</Symbol>
+                        <Description Type="Type182" DB="DB144" ID="0">Description24</Description>
+                        <Description Type="Type183" DB="DB145" ID="0">Description25</Description>
+                        <Attribute Type="Type184" DB="DB146" ID="0">Attribute24</Attribute>
+                        <Attribute Type="Type185" DB="DB147" ID="0">Attribute25</Attribute>
+                        <XRef DB="OMIM" Type="MIM" ID="000000"/>
+                        <XRef DB="Bioconcepts" Type="CUI" ID="C0000000"/>
+                    </Trait>
+                    <Trait ID="2" Type="Disease">
+                        <Name Type="Preferred">My Disease 2</Name>
+                        <Name Type="lab preferred">Lab preferred name for my disease 2</Name>
+                        <Symbol Type="Preferred">My Disease 2 Symbol</Symbol>
+                        <Symbol Type="lab preferred">Lab preferred symbol for my disease 2</Symbol>
+                        <Description Type="Type193" DB="DB154" ID="0">Description26</Description>
+                        <Description Type="Type194" DB="DB155" ID="0">Description27</Description>
+                        <Attribute Type="Type195" DB="DB156" ID="0">Attribute26</Attribute>
+                        <Attribute Type="Type196" DB="DB157" ID="0">Attribute27</Attribute>
+                        <XRef DB="OMIM" Type="MIM" ID="000000"/>
+                        <XRef DB="Bioconcepts" Type="CUI" ID="C0000000"/>
+                        <XRef DB="GeneReviews" ID="NBK0000" />
+                    </Trait>
+                </TraitSet>
+                <MeasureSet ID="12721">
+                    <Measure ID="27760" Type="Variant">
+                        <Name Type="Alternate">TPMT, ALA80PRO</Name>
+                        <Symbol Type="Alternate">TPMT*2</Symbol>
+                        <Attribute Type="HGVS, coding, RefSeq">NM_000367.2:c.238G&gt;C</Attribute>
+                        <Attribute Type="HGVS, genomic, RefSeqGene">NG_012137.1:g.16420G&gt;C</Attribute>
+                        <Attribute Type="HGVS, protein">NP_000358.1:p.Ala80Pro</Attribute>
+                        <Attribute Type="Nucleotide change" DB="NCBI curation">238G&gt;C</Attribute>
+                        <Attribute Type="Protein change 1 letter codes">A80P</Attribute>
+                        <Attribute Type="Protein change 3 letter codes" DB="OMIM" ID="187680.0001">ALA80PRO</Attribute>
+                        <FoundIn ID="6506" Type="Gene">
+                            <Name Type="Preferred">thiopurine S-methyltransferase</Name>
+                            <Symbol Type="Preferred">TPMT</Symbol>
+                            <Location Type="Cytogenetic" Chr="6">6p22.3</Location>
+                            <XRef DB="Gene" ID="7172" />
+                        </FoundIn>
+                        <Affects Type="Protein">
+                            <Name Type="Preferred">Thiopurine S-methyltransferase</Name>
+                        </Affects>
+                        <XRef DB="OMIM" Type="Allelic variant" ID="187680.0001" />
+                        <XRef DB="dbSNP" Type="rs" ID="1800462" />
+                    </Measure>
+                </MeasureSet>   
+            </ClinVarAssertion>
+        </ClinVarSet>
+        <TestName>My test name</TestName>
+        <TestShortName>my test short name</TestShortName>
+        <OtherName Type="Keyword">Search term 1</OtherName>
+        <OtherName Type="Keyword">Search term 2</OtherName>
+        <TestDevelopment>Test developed by laboratory (no manufacturer test name)</TestDevelopment>
+        <LabUniqueCode>A00001</LabUniqueCode>
+        <TestService OrderCode="1111111A" Comment="Order this service for this test">Clinical Testing/Confirmation of Mutations Identified Previously</TestService>
+        <TestAddService OrderCode="1111111B" Comment="Order this service for this test">Custom Prenatal Testing</TestAddService>
+        <TestAddService OrderCode="1111111C" Comment="Order this service for this test">Custom mutation-specific/Carrier testing</TestAddService>
+        <Order>
+            <Description>Information about ordering this test.</Description>
+            <URL>http://www.lab.com/order/</URL>
+        </Order>
+        <Specimen>
+            <SpecimenType>Amniocytes</SpecimenType>
+            <SpecimenType>Amniotic fluid</SpecimenType>
+            <SpecimenType>Cell culture</SpecimenType>
+            <SpecimenType>Cord blood</SpecimenType>
+            <SpecimenType>Fetal blood</SpecimenType>
+            <SpecimenType>Fibroblasts</SpecimenType>
+            <SpecimenType>Fresh tissue</SpecimenType>
+            <SpecimenType>Peripheral (whole) blood</SpecimenType>
+            <SpecimenType>Skin</SpecimenType>
+            <URL>http://www.lab.org/specimen/</URL>
+        </Specimen>
+        <TestContact>1</TestContact>
+        <TestContactPolicy>Laboratory can only accept contact from health care providers. Patients/families are encouraged to discuss genetic testing options with their health care provider.</TestContactPolicy>
+        <InformedConsentReq>Required</InformedConsentReq>
+        <GeneticCounselingReqPre>Not Required</GeneticCounselingReqPre>
+        <GeneticCounselingReqPost>Decline to Answer</GeneticCounselingReqPost>
+        <TestStrategy>
+            <Description>Description of the testing strategy</Description>
+            <CitationText>CitationText</CitationText>
+        </TestStrategy>
+        <LabOrderCode>1111111</LabOrderCode>
+        <TestCodes>
+            <URL>http://www.lab.org/testing_codes</URL>
+        </TestCodes>
+        <LOINC>35300-3</LOINC>
+        <TestURL>http://www.lab.org/test</TestURL>
+        <Availability>
+            <TestPerformedList>Entire test performed in-house</TestPerformedList>
+            <TestExternal>false</TestExternal>
+        </Availability>
+        <OrderableBy>Health Care Provider</OrderableBy>
+        <OrderableBy>Genetic Counselor</OrderableBy>
+        <TestResults>
+            <SampleNegReport>Not Provided</SampleNegReport>
+            <SamplePosReport filename="3426">Sample Positive Report</SamplePosReport>
+            <VUS>
+                <Interpretation>Variants will be identified and evaluated using a custom collection of bioinformatic tools and comprehensively interpreted by our team of directors and genetic counselors.</Interpretation>
+                <Software>A custom collection of bioinformatics tools</Software>
+                <ReportingPolicy>The laboratory reports novel variations.</ReportingPolicy>
+                <RecruitFamily Recruit="Yes">Information on Recruiting Family members</RecruitFamily>
+                <SampleVUSReport >Not Provided</SampleVUSReport>
+            </VUS>
+            <ReContact RecontactAnswer="Yes">Information on ReContacting physicians</ReContact>
+            <Research>
+                <AfterTesting>Statement about if research is done after testing is compelete</AfterTesting>
+            </Research>
+        </TestResults>
+        <Indications>
+            <Purpose>Diagnosis</Purpose>
+            <Purpose>Screening</Purpose>
+            <TestType>Clinical</TestType>
+            <TargetPop>
+                <Description>Description of target population</Description>
+                <CitationText>Citation supporting target pop</CitationText>
+            </TargetPop>
+        </Indications>
+        <Method>
+            <TopCategory Value="Molecular Genetics">
+                <Category Value="Deletion/duplication analysis" code="D">
+                    <Methodology Value="Multiplex Quantitative PCR" />
+                </Category>
+                <Category Value="Sequence analysis of the entire coding region" code="C">
+                    <Methodology Value="Bi-directional Sanger Sequence Analysis">
+                        <Instrument>Visible Genetics Sequencer</Instrument>
+                    </Methodology>
+                </Category>
+            </TopCategory>
+        </Method>
+        <MethodAdd>
+            <Platform>Platform 1</Platform>
+            <Platform>Platform 2</Platform>
+            <Protocol>
+                <Description>Description about test protocol</Description>
+                <PMID>123456</PMID>
+                <PMID>234567</PMID>
+                <URL>http://www.citation.com/</URL>
+                <CitationText>CitationText</CitationText>
+            </Protocol>
+            <Confirmation>Confirmation of results</Confirmation>
+            <Exons qualifier="NM_000367.2:c.238G&gt;C" GeneID="6506">Exons 1-5</Exons>
+        </MethodAdd>
+        <AnalyticalValidity>
+            <Description>Description of Analytical Validity</Description>
+            <PMID>12345678</PMID>
+            <CitationText>Citation Text</CitationText>
+            <CitationText>Citation Text 2</CitationText>
+        </AnalyticalValidity>
+        <AssayLimitations>
+            <Description>Description of Assay limitations</Description>
+            <PMID>123456</PMID>
+            <PMID>234567</PMID>
+            <URL>http://www.citation.com/</URL>
+            <CitationText>CitationText</CitationText>
+        </AssayLimitations>
+        <QualityControl PTPerformed="true">
+            <Method>Inter-Laboratory</Method>
+            <PTProvider>Blinded samples swapped with other labs performing HHT testing</PTProvider>
+            <PTDescription>
+                <Description>Our proficiency testing program includes: testing samples previously or concurrently tested at another laboratory, sending samples tested at our lab to another lab with known qualifications and comparable methods, and testing blinded samples previously tested in our lab.</Description>
+                <PMID>123456</PMID>
+                <PMID>234567</PMID>
+                <URL>http://www.citation.com/</URL>
+                <CitationText>CitationText</CitationText>
+            </PTDescription>
+            <InternalValidation>
+                <Description>Description of internal test validation</Description>
+                <PMID>123456</PMID>
+                <PMID>234567</PMID>
+                <URL>http://www.citation.com/</URL>
+                <CitationText>CitationText</CitationText>
+            </InternalValidation>
+            <ClinicalValidity>
+                <Description>Description of clinical validity</Description>
+                <PMID>123456</PMID>
+                <PMID>234567</PMID>
+                <URL>http://www.citation.com/</URL>
+                <CitationText>CitationText</CitationText>
+            </ClinicalValidity>
+        </QualityControl>
+        <ClinicalUtility>
+            <PMID>123456</PMID>
+            <PMID>234567</PMID>
+            <URL>http://www.citation.com/</URL>
+            <CitationText>CitationText</CitationText>
+            <Type OtherValue="OtherValue2">Establish or Confirm Diagnosis</Type>
+        </ClinicalUtility>
+        <Regulations>
+            <FDARegulatoryClearance>
+                <Category>FDA exercises enforcement discretion</Category>
+                <ItemReviewed>Instrument(s)</ItemReviewed>
+                <Status>Pending</Status>
+                <ApplicationNumber>1234</ApplicationNumber>
+                <ApprovalDocuments>
+                    <URL>http://url.fda/approval/1234</URL>
+                </ApprovalDocuments>
+            </FDARegulatoryClearance>
+        </Regulations>
+        <TestComment>Additional information about the test</TestComment>
+    </GTRLabTest>
+    </GTRLabData>
+</GTRPublicTest>

@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GTRPublicData Version="1.0">
+  <GTRLabData>
+    <GTRLab id="1003" source="GTR" is_GTR="true" is_ClinVar="false" TestCount="9" AnnualPastDue="false" LastUpdate="2021-09-16" CV_participant="false" FDARecognizedDatabase="false">
+      <Organization>
+        <Name>Genetics Laboratory, Peroxisomal Disorders Section</Name>
+        <NameAcronym>PDL</NameAcronym>
+        <Institution>Kennedy Krieger Institute</Institution>
+        <InstitutionAcronym>KKI</InstitutionAcronym>
+        <Department>Neurogenetics</Department>
+        <MailingAddress Public="true">
+          <Line1>707 North Broadway</Line1>
+          <Line3>room 530</Line3>
+          <City>Baltimore</City>
+          <State>Maryland</State>
+          <PostCode>21205</PostCode>
+          <Country>United States</Country>
+        </MailingAddress>
+        <LabContact Public="true">
+          <Email>jonesri@kennedykrieger.org</Email>
+          <Phone>443-923-2788</Phone>
+          <Fax>443-923-2755</Fax>
+          <URL>http://www.genetics.kennedykrieger.org/</URL>
+        </LabContact>
+        <URL>http://www.genetics.kennedykrieger.org/</URL>
+        <LabServices>Clinical Testing/Confirmation of Mutations Identified Previously</LabServices>
+        <LabAffiliations>
+          <LabAffiliation>Neurogenetics Clinic, Kennedy Krieger Institute</LabAffiliation>
+          <URL>http://www.kennedykrieger.org/</URL>
+        </LabAffiliations>
+      </Organization>
+      <Personnel id="2967" PrimaryContact="true" IsDirector="true" DisplayWeb="public" is_GTR="true" is_ClinVar="false">
+        <Person>
+          <DisplayName>Richard Jones, PhD, Lab Director</DisplayName>
+          <Name>
+            <First>Richard</First>
+            <Last>Jones</Last>
+            <Middle>O</Middle>
+          </Name>
+          <Degree Display="true">
+            <Name>PhD</Name>
+          </Degree>
+        </Person>
+        <PublicContact Public="true">
+          <Email>jonesri@kennedykrieger.org</Email>
+          <Phone>443-923-2788</Phone>
+          <Fax>443-923-2755</Fax>
+        </PublicContact>
+        <Title>Lab Director</Title>
+      </Personnel>
+      <Personnel id="1051" PrimaryContact="false" IsDirector="false" DisplayWeb="public" is_GTR="true" is_ClinVar="false">
+        <Person>
+          <DisplayName>Ann Moser, BA, Staff</DisplayName>
+          <Name>
+            <First>Ann</First>
+            <Last>Moser</Last>
+          </Name>
+          <Degree Display="true">
+            <Name>BA</Name>
+          </Degree>
+        </Person>
+        <PublicContact Public="true">
+          <Email>mosera@kennedykrieger.org</Email>
+          <Phone>443-923-2761</Phone>
+          <Fax>443-923-2755</Fax>
+        </PublicContact>
+        <Title>Staff</Title>
+      </Personnel>
+      <LabCertification Type="State License">
+        <EffectiveDate>2018-07-01</EffectiveDate>
+        <Number>802</Number>
+        <Name>MD - Maryland Department of Health and Mental Hygiene DHMH</Name>
+      </LabCertification>
+      <LabCertification Type="Certification">
+        <ExpirationDate>2021-06-30</ExpirationDate>
+        <Number>1353022</Number>
+        <Name>CAP</Name>
+      </LabCertification>
+      <LabCertification Type="Certification">
+        <ExpirationDate>2021-11-30</ExpirationDate>
+        <Number>21D0649789</Number>
+        <Name>CLIA</Name>
+      </LabCertification>
+      <LabCertification Type="State License">
+        <ExpirationDate>2022-05-16</ExpirationDate>
+        <Number>CDS00800866</Number>
+        <Name>CA - California Department of Public Health CDPH</Name>
+      </LabCertification>
+      <LabCertification Type="State License">
+        <ExpirationDate>2022-08-15</ExpirationDate>
+        <Number>033873</Number>
+        <Name>PA - Pennsylvania Department of Health PADOH</Name>
+      </LabCertification>
+    </GTRLab>
+    <GTRLabTest LastUpdate="2021-09-15" LastTouched="2022-04-09" source="GTR" id="4880" GTRAccession="GTR000004880" Version="3">
+      <ClinVarSet ID="35957">
+        <DescrSet Type="Preferred" CUI="C0034960">Phytanic acid storage disease</DescrSet>
+        <DescrSet Type="Lab Preferred">Refsum disease</DescrSet>
+        <ClinVarAssertion DateCreated="2014-08-18" DateLastUpdated="2021-06-24" SubmissionDate="2014-08-18" ID="311993">
+          <TraitSet ID="6493">
+            <Trait ID="5851" Type="Disease">
+              <Name Type="Preferred">Phytanic acid storage disease</Name>
+              <Name Type="Alternate">HMSN IV</Name>
+              <Name Type="Alternate">REFSUM DISEASE, CLASSIC</Name>
+              <Name Type="lab preferred">Refsum disease</Name>
+              <Symbol Type="Preferred">RDPA</Symbol>
+              <Symbol Type="Alternate">HMSN4</Symbol>
+              <XRef DB="GeneReviews" ID="NBK1270"/>
+              <XRef DB="OMIM" Type="MIM" ID="266500"/>
+              <XRef DB="OMIM" Type="MIM" ID="600964"/>
+              <XRef DB="GeneReviews" ID="NBK1353"/>
+              <XRef DB="Orphanet" ID="773"/>
+              <XRef DB="MONDO" ID="MONDO:0009958"/>
+              <XRef DB="MedGen" Type="CUI" ID="C0034960"/>
+            </Trait>
+          </TraitSet>
+          <MeasureSet ID="143937">
+            <Measure ID="48769" Type="Analyte">
+              <Name Type="Preferred">Phytanic acid</Name>
+              <Name Type="Alternate" ID="rs">1-14C phytanic acid</Name>
+              <Name Type="Alternate">1-14C water soluble products of 1-14C phytanic acid</Name>
+            </Measure>
+          </MeasureSet>
+          <ObservedIn Origin="germline"/>
+        </ClinVarAssertion>
+        <ClinVarAssertion DateCreated="2014-08-18" DateLastUpdated="2021-06-24" SubmissionDate="2014-08-18" ID="311991">
+          <TraitSet ID="7944">
+            <Trait ID="5752" Type="Disease">
+              <Name Type="Preferred">Peroxisome biogenesis disorder</Name>
+              <Name Type="Alternate">ADRENOLEUKODYSTROPHY, AUTOSOMAL NEONATAL</Name>
+              <Name Type="Alternate">INFANTILE PHYTANIC ACID STORAGE DISEASE</Name>
+              <Name Type="Alternate">PEROXISOME BIOGENESIS DISORDER (NALD/IRD)</Name>
+              <Name Type="Alternate">PEROXISOME BIOGENESIS DISORDER (NEONATAL ADRENOLEUKODYSTROPHY/INFANTILE REFSUM DISEASE)</Name>
+              <Name Type="Alternate">Peroxisome biogenesis disorders, Zellweger syndrome spectrum</Name>
+              <Name Type="lab preferred">Peroxisome Biogenesis Disorders, Zellweger Syndrome Spectrum</Name>
+              <Symbol Type="Preferred">PBD, ZSS</Symbol>
+              <Symbol Type="Alternate">PBDS</Symbol>
+              <Symbol Type="lab preferred">PBDS</Symbol>
+              <XRef DB="OMIM" Type="MIM" ID="601539"/>
+              <XRef DB="GeneReviews" ID="NBK1448"/>
+              <XRef DB="Orphanet" ID="79189"/>
+              <XRef DB="MONDO" ID="MONDO:0019234"/>
+              <XRef DB="MedGen" Type="CUI" ID="C1832200"/>
+            </Trait>
+          </TraitSet>
+          <MeasureSet ID="143937">
+            <Measure ID="48769" Type="Analyte">
+              <Name Type="Preferred">Phytanic acid</Name>
+              <Name Type="Alternate">1-14C phytanic acid</Name>
+              <Name Type="Alternate">1-14C water soluble products of 1-14C phytanic acid</Name>
+            </Measure>
+          </MeasureSet>
+          <ObservedIn Origin="germline"/>
+        </ClinVarAssertion>
+        <ClinVarAssertion DateCreated="2013-03-16" DateLastUpdated="2014-11-21" ID="95662">
+          <TraitSet ID="2113">
+            <Trait ID="5877" Type="Disease">
+              <Name Type="Preferred">Rhizomelic chondrodysplasia punctata type 1</Name>
+              <Name Type="Alternate">PEROXISOME BIOGENESIS DISORDER 9</Name>
+              <Symbol Type="Preferred">RCDP1</Symbol>
+              <Symbol Type="Alternate">CDPR</Symbol>
+              <Symbol Type="Alternate">PBD9</Symbol>
+              <XRef DB="GeneReviews" ID="NBK1270"/>
+              <XRef DB="OMIM" Type="MIM" ID="215100"/>
+              <XRef DB="Orphanet" ID="309789"/>
+              <XRef DB="MONDO" ID="MONDO:0008972"/>
+              <XRef DB="Office of Rare Diseases" ID="6049"/>
+              <XRef DB="MedGen" Type="CUI" ID="C1859133"/>
+            </Trait>
+          </TraitSet>
+          <MeasureSet ID="143937">
+            <Measure ID="48769" Type="Analyte">
+              <Name Type="Preferred">Phytanic acid</Name>
+              <Name Type="Alternate">1-14C phytanic acid</Name>
+              <Name Type="Alternate">1-14C water soluble products of 1-14C phytanic acid</Name>
+            </Measure>
+          </MeasureSet>
+          <ObservedIn Origin="germline"/>
+        </ClinVarAssertion>
+        <ClinVarAssertion DateCreated="2013-03-16" DateLastUpdated="2014-10-21" ID="95661">
+          <TraitSet ID="2066">
+            <Trait ID="8960" Type="Disease">
+              <Name Type="Preferred">Refsum disease, adult, 1</Name>
+              <XRef DB="MedGen" Type="CUI" ID="C2749345"/>
+            </Trait>
+          </TraitSet>
+          <MeasureSet ID="143937">
+            <Measure ID="48769" Type="Analyte">
+              <Name Type="Preferred">Phytanic acid</Name>
+              <Name Type="Alternate">1-14C phytanic acid</Name>
+              <Name Type="Alternate">1-14C water soluble products of 1-14C phytanic acid</Name>
+            </Measure>
+          </MeasureSet>
+          <ObservedIn Origin="germline"/>
+        </ClinVarAssertion>
+      </ClinVarSet>
+      <TestName>Phytanic acid oxidase (cultured cells)</TestName>
+      <TestAddService>Custom Prenatal Testing</TestAddService>
+      <Order>
+        <Description>2 mm punch sterile skin biopsy in sterile tissue culture media or two T-25 flasks of fibroblasts</Description>
+        <URL>http://www.genetics.kennedykrieger.org/forms</URL>
+      </Order>
+      <Specimen>
+        <SpecimenType>Fibroblasts</SpecimenType>
+      </Specimen>
+      <TestContactPolicy>Laboratory can only accept contact from health care providers. Patients/families are encouraged to discuss genetic testing options with their health care provider.</TestContactPolicy>
+      <InformedConsentReq>No</InformedConsentReq>
+      <GeneticCounselingReqPre>Yes</GeneticCounselingReqPre>
+      <GeneticCounselingReqPost>Yes</GeneticCounselingReqPost>
+      <TestStrategy>
+        <Description>patients who have retinitis pigmentosa, hearing loss, neuropathy, and ichthiosis, or increased plasma phytanic acid and/or patients with rhizomelic chondrodysplasia punctata, or pero
+xisome assembly disorders</Description>
+        <PMID>21683154</PMID>
+      </TestStrategy>
+      <TestURL>http://www.genetics.kennedykrieger.org/</TestURL>
+      <Availability>
+        <TestPerformedList>Entire test performed in-house</TestPerformedList>
+      </Availability>
+      <OrderableBy>Physician Assistant</OrderableBy>
+      <OrderableBy>Licensed Physician</OrderableBy>
+      <OrderableBy>Nurse Practitioner</OrderableBy>
+      <OrderableBy>Registered Nurse</OrderableBy>
+      <OrderableBy>Genetic Counselor</OrderableBy>
+      <OrderableBy>Health Care Provider</OrderableBy>
+      <TestResults>
+        <SampleNegReport filename="301851">Sample Negative Report</SampleNegReport>
+        <SamplePosReport filename="301852">Sample Positive Report</SamplePosReport>
+        <VUS>
+          <Interpretation>If the values for duplicate samples are discordant, or greater than 20% variance, then the assay is repeated.</Interpretation>
+          <Software>proprietary internal software</Software>
+          <ReportingPolicy>The laboratory will report to the referring lab or physician and state that the assay is being repeated.</ReportingPolicy>
+          <RecruitFamily Recruit="No"/>
+        </VUS>
+        <ReContact RecontactAnswer="Yes">The laboratory will telephone and fax the second report to the ordering lab/physician.</ReContact>
+        <Research>
+          <AfterTesting>If the patient and/or his family signs our IRB that states that the sample can be shared with qualifed researchers then the cells are kept in liquid nitrogen and shared with the q
+ualifed researchers on request.</AfterTesting>
+        </Research>
+      </TestResults>
+      <Indications>
+        <Purpose>Diagnosis</Purpose>
+        <Purpose>Mutation Confirmation</Purpose>
+        <TestType>Clinical</TestType>
+        <Inheritance>
+          <Value>Autosomal recessive inheritance</Value>
+        </Inheritance>
+        <Mechanism>
+          <Value>loss of function</Value>
+        </Mechanism>
+        <TargetPop>
+          <Description>Refsum Disease adult and infantile, rhizomelic chondrodysplasia puctata Type I, peroxisome assembly disorders</Description>
+          <PMID>21683154</PMID>
+          <CitationText>Steinberg SJ, Raymond GV, Braverman NE, Moser AB. Peroxisome Biogenesis Disorders, Zellweger Syndrome Spectrum. In: Pagon RA, Bird TD, Dolan CR, Stephens K, editors. GeneReviews [
+Internet]. Seattle (WA): University of Washington, Seattle; 1993-.2003 Dec 12 [updated 2011 Jan 18]</CitationText>
+        </TargetPop>
+      </Indications>
+      <Method>
+        <TopCategory Value="Biochemical Genetics">
+          <Category Value="Enzyme assay" code="E">
+            <Methodology Value="Enzyme activity">
+              <Instrument>Beckman LS6500 scintillation counter</Instrument>
+            </Methodology>
+          </Category>
+        </TopCategory>
+      </Method>
+      <MethodAdd>
+        <Protocol>
+          <Description>Phytanic acid is a branched chain fatty acid that is metabolized in the peroxisome by alpha oxidation. Use two flasks of cells that are between 50% to 75% confluent. Remove media f
+rom test flasks by aspiration, add 2-3ml of PBS, rinse monolayer, aspirate PBS, add 1ml FBS-free media, rinse, aspirate , add 1.2 ml incubation media containing 150,000 DPM [1-14C]phytanic acid in FBS-fr
+ee media, ventilate flasks with 5% CO2 for 20 seconds &amp; then seal with a non-vented cap. These flasks should be incubated for 48 hours exactly at 37°C. Remember to set up the 2 blank flasks!!!!
+ After the 48 hour incubation, transfer 300µl of media (supernatant of cells) to 16x125 screw-top tube and add 125µl of cold 18% HClO4. Vortex &amp; leave on ice for 10 minutes. Add 3.75ml 1:1 chloroform
+:methanol (vol/vol) &amp; vortex. Add 1.875ml chloroform and 1.2ml water &amp; vortex 25 seconds. Centrifuge for 15 minutes at 3000rpm using the IEC/Centra GP8R centrifuge. Transfer the upper aqueous pha
+se to a 22ml scintillation vial using a glass Pasteur pipette.
+Add 10ml Liquiscint, and count in Beckman scintillation counter using the program for 1-14C label.</Description>
+          <PMID>6174257</PMID>
+        </Protocol>
+        <Confirmation>The clinical indication of the patient is usually known prior to the assay of phytanic acid oxidase. Thus we do not usually need to confirm positive results. If the diagnosis of the
+ patient is unknown, then the assay is repeated.</Confirmation>
+      </MethodAdd>
+      <AnalyticalValidity>
+        <Description>Our laboratory has tested more than 20 normal control cell lines and 10 non-peroxisomal disease cell lines, 10 cell lines from adult Refsum patients, 25 from PBDs, 15 from RCDP1, 10 
+from patient with D-bifunctional enzyme deficiency, and 2 from 2-methyl acyl-CoA racemase deficiency. The 20 normal and 10 non-peroxisomal disease cell lines gave results for phytanic acid oxidase that e
+stablished our normal control range. All of the afore mentioned peroxisomal diease cell lines gave values that were below our normal range.</Description>
+        <PMID>1438369</PMID>
+        <PMID>2463966</PMID>
+        <PMID>6174257</PMID>
+        <CitationText>Braverman NE, Steinberg SJ, , Moser AB. Rhizomelic Chondrodysplasia Punctata Type 1. In: Pagon RA, Bird TD, Dolan CR, Stephens K, editors. GeneReviews [Internet]. Seattle (WA): Univ
+ersity of Washington, Seattle; 1993-.2003 Dec 12 [updated 2011 Jan 18].</CitationText>
+        <CitationText>Zenger-Hain J., Craft DA, and Rizzo WB (1992) In “New Developments in Fatty Acid Oxidation” Coates PM and Tanaka K Eds. pp. 399-407 Wiley-Liss NY</CitationText>
+      </AnalyticalValidity>
+      <AssayLimitations>
+        <Description>The need for cultured cells for measurement of phytanic acid oxidation.</Description>
+      </AssayLimitations>
+      <QualityControl PTPerformed="true">
+        <Method>Inter-Laboratory</Method>
+        <PTProvider>Biochemical Genetics Laboratory in Amsterdam, Netherlands</PTProvider>
+        <PTDescription>
+          <Description>Exchange of coded cell lines and comparison of results.</Description>
+        </PTDescription>
+        <InternalValidation>
+          <Description>Assay of duplicate blanks, duplicate normal control cell lines and duplicate abnormal cell lines with each set of diagnostic assays.</Description>
+        </InternalValidation>
+        <ClinicalValidity>
+          <Description>Confims the clinical diagnosis of a disorder of phytanic acid metabolism.</Description>
+          <PMID>1438369</PMID>
+          <PMID>2463966</PMID>
+          <PMID>6174257</PMID>
+          <CitationText>Braverman NE, Steinberg SJ, , Moser AB. Rhizomelic Chondrodysplasia Punctata Type 1. In: Pagon RA, Bird TD, Dolan CR, Stephens K, editors. GeneReviews [Internet]. Seattle (WA): Un
+iversity of Washington, Seattle; 1993-.2003 Dec 12 [updated 2011 Jan 18].</CitationText>
+          <CitationText>Zenger-Hain J., Craft DA, and Rizzo WB (1992) In “New Developments in Fatty Acid Oxidation” Coates PM and Tanaka K Eds. pp. 399-407 Wiley-Liss NY</CitationText>
+        </ClinicalValidity>
+      </QualityControl>
+      <ClinicalUtility>
+        <PMID>2463966</PMID>
+        <CitationText>Braverman NE, Steinberg SJ, , Moser AB. Rhizomelic Chondrodysplasia Punctata Type 1. In: Pagon RA, Bird TD, Dolan CR, Stephens K, editors. GeneReviews [Internet]. Seattle (WA): Univ
+ersity of Washington, Seattle; 1993-.2003 Dec 12 [updated 2011 Jan 18].</CitationText>
+        <CitationText>Phytanic acid alpha-oxidation and complementation analysis of classical Refsum and peroxisomal disorders. Bwee-Tien, Poll-The et al. Human Genetics 1988; 49:1-7</CitationText>
+        <Type>Establish or confirm diagnosis</Type>
+      </ClinicalUtility>
+      <Regulations/>
+      <TestComment>Enzyme assays are performed using cultured cells: skin fibroblasts, amniocytes, or chorionic villi.</TestComment>
+      <TestComment>The  [1-14C]phytanic acid substrate is available by custom synthesis.</TestComment>
+    </GTRLabTest>
+    <GTRLabTest LastUpdate="2016-04-21" LastTouched="2022-02-03" source="GTR" id="28499" GTRAccession="GTR000028499" Version="2">
+      <ClinVarSet ID="36687">
+        <DescrSet Type="Preferred" CUI="C1832200">Peroxisome biogenesis disorder</DescrSet>
+        <DescrSet Type="Lab Preferred">Peroxisome biogenesis disorders</DescrSet>
+        <ClinVarAssertion DateCreated="2013-08-12" DateLastUpdated="2021-06-24" ID="142139">
+          <TraitSet ID="1545">
+            <Trait ID="10176" Type="Disease">
+              <Name Type="Preferred">Alpha-methylacyl-CoA racemase deficiency</Name>
+              <Name Type="Alternate">AMACR deficiency</Name>
+              <Name Type="lab preferred">Alpha-methylacyl-coa racemase deficiency</Name>
+              <Symbol Type="Preferred">AMACRD</Symbol>
+              <XRef DB="OMIM" Type="MIM" ID="614307"/>
+              <XRef DB="MONDO" ID="MONDO:0013681"/>
+              <XRef DB="MedGen" Type="CUI" ID="C3280428"/>
+            </Trait>
+          </TraitSet>
+          <MeasureSet ID="40221">
+            <Measure ID="48705" Type="Analyte">
+              <Name Type="Preferred">Pristanic acid</Name>
+              <Name Type="Alternate">1-14C-water soluble products of 1-14C-pristanic acid</Name>
+              <Name Type="Alternate">1-C14-water soluble products of 1-C14-pristanic acid</Name>
+            </Measure>
+          </MeasureSet>
+          <ObservedIn Origin="germline"/>
+        </ClinVarAssertion>
+        <ClinVarAssertion DateCreated="2013-03-11" DateLastUpdated="2021-06-24" ID="95496">
+          <TraitSet ID="7944">
+            <Trait ID="5752" Type="Disease">
+              <Name Type="Preferred">Peroxisome biogenesis disorder</Name>
+              <Name Type="Alternate">ADRENOLEUKODYSTROPHY, AUTOSOMAL NEONATAL</Name>
+              <Name Type="Alternate">INFANTILE PHYTANIC ACID STORAGE DISEASE</Name>
+              <Name Type="Alternate">PEROXISOME BIOGENESIS DISORDER (NALD/IRD)</Name>
+              <Name Type="Alternate">PEROXISOME BIOGENESIS DISORDER (NEONATAL ADRENOLEUKODYSTROPHY/INFANTILE REFSUM DISEASE)</Name>
+              <Name Type="Alternate">Peroxisome biogenesis disorders, Zellweger syndrome spectrum</Name>
+              <Name Type="lab preferred">Peroxisome biogenesis disorders</Name>
+              <Symbol Type="Preferred">PBD, ZSS</Symbol>
+              <Symbol Type="Alternate">PBDS</Symbol>
+              <Symbol Type="lab preferred">PBD</Symbol>
+              <XRef DB="OMIM" Type="MIM" ID="601539"/>
+              <XRef DB="GeneReviews" ID="NBK1448"/>
+              <XRef DB="Orphanet" ID="79189"/>
+              <XRef DB="MONDO" ID="MONDO:0019234"/>
+              <XRef DB="MedGen" Type="CUI" ID="C1832200"/>
+            </Trait>
+          </TraitSet>
+          <MeasureSet ID="40221">
+            <Measure ID="48705" Type="Analyte">
+              <Name Type="Preferred">Pristanic acid</Name>
+              <Name Type="Alternate">1-14C-water soluble products of 1-14C-pristanic acid</Name>
+              <Name Type="Alternate">1-C14-water soluble products of 1-C14-pristanic acid</Name>
+            </Measure>
+          </MeasureSet>
+          <ObservedIn Origin="germline"/>
+        </ClinVarAssertion>
+        <ClinVarAssertion DateCreated="2013-03-22" DateLastUpdated="2014-07-16" ID="97030">
+          <TraitSet ID="2088">
+            <Trait ID="924" Type="Disease">
+              <Name Type="Preferred">Bifunctional peroxisomal enzyme deficiency</Name>
+              <Name Type="Alternate">D-bifunctional protein deficiency</Name>
+              <Name Type="lab preferred">D-bifunctional enzyme deficiency</Name>
+              <Symbol Type="Preferred">DBIF</Symbol>
+              <XRef DB="OMIM" Type="MIM" ID="261515"/>
+              <XRef DB="Orphanet" ID="300"/>
+              <XRef DB="MONDO" ID="MONDO:0009855"/>
+              <XRef DB="Office of Rare Diseases" ID="4539"/>
+              <XRef DB="MedGen" Type="CUI" ID="C0342870"/>
+            </Trait>
+          </TraitSet>
+          <MeasureSet ID="40221">
+            <Measure ID="48705" Type="Analyte">
+              <Name Type="Preferred">Pristanic acid</Name>
+              <Name Type="Alternate" ID="rs">1-14C-water soluble products of 1-14C-pristanic acid</Name>
+              <Name Type="Alternate" ID="rs">1-C14-water soluble products of 1-C14-pristanic acid</Name>
+            </Measure>
+          </MeasureSet>
+          <ObservedIn Origin="germline"/>
+        </ClinVarAssertion>
+      </ClinVarSet>
+      <TestName>Pristanic acid oxidase (cultured cells)</TestName>
+      <TestDevelopment>Test developed by laboratory (no manufacturer test name)</TestDevelopment>
+      <TestService>Clinical Testing/Confirmation of Mutations Identified Previously</TestService>
+      <TestAddService>Custom Prenatal Testing</TestAddService>
+      <Order>
+        <Description>2 mm punch sterile skin biopsy in sterile tissue culture media or two T-25 flasks of fibroblasts</Description>
+        <URL>http://www.genetics.kennedykrieger.org/forms</URL>
+      </Order>
+      <Specimen>
+        <SpecimenType>Amniocytes</SpecimenType>
+        <SpecimenType>Cell culture</SpecimenType>
+        <SpecimenType>Chorionic villi</SpecimenType>
+        <SpecimenType>Fibroblasts</SpecimenType>
+        <URL>http://www.genetics.kennedykrieger.org/forms</URL>
+      </Specimen>
+      <TestContactPolicy>Laboratory can only accept contact from health care providers. Patients/families are encouraged to discuss genetic testing options with their health care provider.</TestContactPolicy>
+      <InformedConsentReq>No</InformedConsentReq>
+      <GeneticCounselingReqPre>Yes</GeneticCounselingReqPre>
+      <GeneticCounselingReqPost>Yes</GeneticCounselingReqPost>
+      <TestStrategy>
+        <Description>patients who are known or suspected to have peroxisomal biogenesis defects (Zellweger spectrum disorders), D-bifunctional enzyme deficiency or 2-methyl acyl-CoA racemase deficiency</Description>
+        <PMID>11591435</PMID>
+      </TestStrategy>
+      <TestURL>http://www.genetics.kennedykrieger.org/</TestURL>
+      <Availability>
+        <TestPerformedList>Entire test performed in-house</TestPerformedList>
+      </Availability>
+      <OrderableBy>Genetic Counselor</OrderableBy>
+      <OrderableBy>Health Care Provider</OrderableBy>
+      <OrderableBy>Licensed Physician</OrderableBy>
+      <OrderableBy>Nurse Practitioner</OrderableBy>
+      <OrderableBy>Physician Assistant</OrderableBy>
+      <OrderableBy>Registered Nurse</OrderableBy>
+      <TestResults>
+        <SampleNegReport filename="301876">Sample Negative Report</SampleNegReport>
+        <SamplePosReport filename="301877">Sample Positive Report</SamplePosReport>
+        <VUS>
+          <Interpretation>If the duplicate cell assay results do not correspond within 20%, then the assay is repeated.</Interpretation>
+          <Software>proprietary internal software</Software>
+          <ReportingPolicy>The laboratory will telephone and fax preliminary results and state that the assay will be repeated.</ReportingPolicy>
+          <RecruitFamily Recruit="No"/>
+        </VUS>
+        <ReContact RecontactAnswer="Yes">When the assay has been repeated and the results of the duplicate assays are within 20% of each other, the results are reported by telephone and fax to the referr
+ing pysician and lab.</ReContact>
+        <Research>
+          <AfterTesting>If the patient and/or his legal representative sign the IRB that permits that the cells can be shared with any qualified researcher, the cells are stored in the PDL liquid nitroge
+n for possible request for research studies.</AfterTesting>
+        </Research>
+      </TestResults>
+      <Indications>
+        <Purpose>Diagnosis</Purpose>
+        <Purpose>Mutation Confirmation</Purpose>
+        <TestType>Clinical</TestType>
+        <Inheritance>
+          <Value>Autosomal recessive inheritance</Value>
+        </Inheritance>
+        <Mechanism>
+          <Value>loss of function</Value>
+        </Mechanism>
+        <TargetPop>
+          <Description>Patients with peroxisomal biogenesis defects, D-bifunctional enzyme deficiency, and 2-methyl acyl-CoA racemase deficiency</Description>
+          <PMID>11591435</PMID>
+        </TargetPop>
+      </Indications>
+      <Method>
+        <TopCategory Value="Biochemical Genetics">
+          <Category Value="Enzyme assay" code="E">
+            <Methodology Value="Enzyme activity">
+              <Instrument>Beckman Scintillation counter</Instrument>
+            </Methodology>
+          </Category>
+        </TopCategory>
+      </Method>
+      <MethodAdd>
+        <Protocol>
+          <Description>This assay requires a minimum of 5 days from start to finish as described here.  For each patient &amp; the normal and abnormal controls, set up 2 T25 flasks by subculturing 1 conf
+luent T25 flask ~1?3.  Leave the cells to incubate ~48 hours. The cells should be ~80% confluent on day 3, but should NEVER attain 100% confluence on day  Thus, it is appropriate to adjust the subculture
+ proportion based on the growth characteristics of each cell line. Remove media from test flasks by aspiration, add 2-3ml of PBS, rinse monolayer, aspirate PBS. Add 1ml FBS-free media, rinse, aspirate
+and add 1.2 ml incubation media containing 150000 DPM 1-14C]pristanic acid (1nmol/µl). Ventilate flasks with 5% CO2 for 20 seconds &amp; then seal with a non-vented cap. These flasks should be incubated 
+for 48 hours exactly at 37°C. Remember to set up the 2 blank flasks!!!!
+Transfer 300µl of media to 16x125 prelabeled screw-top tube and add 125µl of cold 18% HClO4.  Vortex &amp; leave on ice for 10 minutes.
+ Add 3.75ml 1:1 chloroform:methanol (vol/vol) &amp; vortex. Add 1.875ml chloroform and 1.2ml water &amp; vortex 25 seconds. Centrifuge for 15 minutes at 3000rpm using the IEC/Centra GP8R centrifuge. Tran
+sfer the upper aqueous phase to a 22ml scintillation vial using a glass Pasteur pipette. Add 10ml Liquiscint, vortex &amp; then leave sitting in the dark 30 minutes prior to using the program for 14C sin
+gle label scintillation counting.
+
+Protein measurement procedure:Remove residual incubation media from cells by aspiration. Add 2-3ml PBS, rinse cell surface &amp; aspirate.  Repeat and add 2ml of 2N NaOH, rinse over cell monolayer &amp; 
+leave sitting for 30 minutes at ambient temperature. Use a plastic bulb pipette to make the cells soluble in the base solution &amp; then transfer to a small glass tube for storage in the refrigerator. M
+easure protein by Miller Protein assay (modification of Lowry) using 50µl of the cell suspension (in duplicate).
+We report two values: 
+(a) the specific activity: pmol / 48 hours / mg protein &amp;
+(b) the % of control mean: 	(test flask specific activity)      x 100
+(463.8 pmol /48 h/mg protein)</Description>
+          <PMID>9053546</PMID>
+          <PMID>9230115</PMID>
+        </Protocol>
+        <Confirmation>The diagnostic cells are assayed in duplicate, thus if the duplicate values correspond within 20%, and the normal range and abnormal range of cell values are consistent with previou
+s values, then the diagnostic results are accepted.</Confirmation>
+      </MethodAdd>
+      <AnalyticalValidity>
+        <Description>13 normal controls, 5 disease controls, 8 Peroxisomal biogenesis disorders, 6 D-bifunctional disorders and 2 patients with 2-methyl acyl-CoA racemase deficiency were analyzed. The va
+lues for the 13 normal controls and 5 diease controls were used to establish the normal range for pristanic acid oxidase. The peroxisomal disorders were compiled separately to show the abnormal value ran
+ge for each of the disorders.</Description>
+        <PMID>9053546</PMID>
+        <PMID>9230115</PMID>
+      </AnalyticalValidity>
+      <AssayLimitations>
+        <Description>Cultured cells are needed for the assay and the 1-14C-pristanic acid is only available through custom synthesis.</Description>
+      </AssayLimitations>
+      <QualityControl PTPerformed="true">
+        <Method>Inter-Laboratory</Method>
+        <PTProvider>Department of Clinical Chemistry, Metabolic Unit, VU Medical Cen</PTProvider>
+        <PTDescription>
+          <Description>Coded cells were exchanged between the two laboratories. The results were compared and accepted if within 20%. (The laboratory in Amsterdam also shared the cost of the custom synth
+esis of the 1-14C-pristanic acid with the PDL laboratory.)</Description>
+        </PTDescription>
+        <InternalValidation>
+          <Description>The same normal control cell line and the same abnormal control cell line are assayed with each set of diagnostic cells. Thus the values of the normal  and the abnormal must fall w
+ithin 20% of the mean of at least 10 averaged prior results for that cell line.</Description>
+        </InternalValidation>
+        <ClinicalValidity>
+          <Description>13 normal controls, 5 disease controls, 8 Peroxisomal biogenesis disorders, 6 D-bifunctional disorders and 2 patients with 2-methyl acyl-CoA racemase deficiency were analyzed. The 
+values for the 13 normal controls and 5 diease controls were used to establish the normal range for pristanic acid oxidase. The peroxisomal disorders were compiled separately to show the abnormal value r
+ange for each of the disorders.</Description>
+        </ClinicalValidity>
+      </QualityControl>
+      <ClinicalUtility>
+        <PMID>11591435</PMID>
+        <Type>Establish or confirm diagnosis</Type>
+      </ClinicalUtility>
+      <Regulations>
+        <FDARegulatoryClearance>
+          <Category>FDA exercises enforcement discretion</Category>
+        </FDARegulatoryClearance>
+      </Regulations>
+      <TestComment>Enzyme assays are performed using cultured cells; skin fibroblasts, amniocytes, or chorionic villi.</TestComment>
+    </GTRLabTest>
+  </GTRLabData>
+</GTRPublicData>
